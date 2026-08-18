@@ -28,3 +28,7 @@ The algorithm is built on three 32-bit primitives: xor, rotate, and AES encrypt 
 The reference implementation currently supports x86-64 with AVX2 (e.g. Intel Haswell) and takes advantage of more advanced features if available. Support for ARM64 will likely be added at some point. Various minor implementation improvements still need to be done.
 
 The baseline algorithm is unlikely to change but analysis and verification of hash quality is ongoing. The algorithm and reference implementation are distributed under the MIT License.
+
+## Other implementations
+
+* [rotohash-rs](https://github.com/int08h/rotohash-rs) Rust AVX2/AVX-512/NEON implementation. 
